@@ -1,0 +1,159 @@
+<OmegaPetShop html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMEGAPETSHOP_TIENDA_ONLINE 1</title>
+    <style>
+
+        .btn {
+            display: inline-block;
+            background-color: rgb(200, 12, 12);
+            padding: 10px 40px;
+            color: aliceblue;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .btn:hover{
+            background-color: darkgreen;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- <SCRIpt>
+        //comentario de linea en JavaScript
+        let x = 2;
+        console.log ("x =" + x);
+        y = 4;
+        z = x + y;
+        //VENTANA EMERGENTE
+        alert("x = " + x +
+              "\ny = " + y + 
+              "\nz =  x + y = " + x + " + " + y + " = " + z );
+    </SCRIpt> -->
+</head>
+<body>
+    </h2>
+    <header>
+        <div class="container">
+            <p class="logo">OmegaPetShop</p>
+            <nav>
+                <a href="#somos">¿Quienes Somos?</a>
+                <a href="#productos">Nuestros Productos</a>
+                <a href="#contacto">Contacta con nosotros</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>¡Los mejores productos<br>para tus mascotas!</h1>
+        <button>
+            <a class="btn" href="/Users/estivennoguera/Desktop/CLASES EN LINEA/Mision TIC/Proyecto U20-07/Frontend_init/OMEGAPETSHOP_Frontend/Pag_compra_Juguetes.html" target="Blank">COMPRA AQUÍ</a>
+        </button>
+    </section>
+
+    <section id="somos">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h1>Somos <span class="color-acento">OmegaPetShop</span></h1>
+                <p>OmegaPetShop está preparada para brindarte el mejor servicio, donde 
+                    tu mascota contará con los productos necesarios y sobre todo, sea de tu mayor 
+                    facilidad para adquisición e información sobre nuestros productos en disponibilidad para su venta directa
+                    mediante la web de servicio OMEGAPETSHOP_TIENDA_ONLINE 1.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="productos2">
+                <div class="carta">
+                    <h3>Comida para Gatos</h3>
+                    <p>holisLorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <button>
+                        <a class="btn" href="/Users/estivennoguera/Desktop/CLASES EN LINEA/Mision TIC/Proyecto U20-07/Frontend_init/OMEGAPETSHOP_Frontend/Comida gatos/index.html" target="Blank">COMPRAR</a>
+
+                    </button>
+                </div>
+                <div class="carta">
+                    <h3>Comida para Perros</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <button>
+                        <a class="btn" href="/Users/estivennoguera/Desktop/CLASES EN LINEA/Mision TIC/Proyecto U20-07/Frontend_init/OMEGAPETSHOP_Frontend/Comida perros/index.html" target="Blank">COMPRAR</a>
+
+                    </button>
+                </div>
+                <div class="carta">
+                    <h3>Accesorios</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <button>
+                        <a class="btn" href="/Users/estivennoguera/Desktop/CLASES EN LINEA/Mision TIC/Proyecto U20-07/Frontend_init/OMEGAPETSHOP_Frontend/Accesorios/index.html" target="Blank">COMPRAR</a>
+
+                    </button>
+                </div>  
+                <div class="carta">
+                    <h3>Juguetes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <button>
+                        <a class="btn" href="/Users/estivennoguera/Desktop/CLASES EN LINEA/Mision TIC/Proyecto U20-07/Frontend_init/OMEGAPETSHOP_Frontend/Juguetes/index.html" target="Blank">COMPRAR</a>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+           <h1>Contacta con nosotros por medio de nuestras redes sociales</h1>
+            <button>
+                <a class="btn" href="https://web.whatsapp.com/" target="Blank">WHATSAPP</a>
+
+            </button>
+            <button>
+                <a class="btn" href="https://www.instagram.com/" target="Blank">INSTAGRAM</a>
+
+            </button>
+            <button>
+                <a class="btn" href="https://es-la.facebook.com/" target="Blank">FACEBOOK</a>
+
+            </button>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>OmegaPetShop <br> &copy;  2022</p>
+        </div>
+    </footer>
+    
+<!-- Programa para establecer citas de atencion en OMEGAPETSHOP -->
+
+<script>
+    //Entrada
+    let Tipo_De_Mascota = prompt("Digite el numero del tipo de mascota para el cual desea adquirir productos: ", "perro");
+    //Transformación
+    let Valor_Producto;
+    if (mascota ==perro){
+        Valor_Producto_sin_descuento= 10000;
+    }
+    else{
+        if (mascota == gato){
+            Valor_Producto = 5000;
+        }
+        
+        }
+
+    //Salida
+    alert("El valor del producto para tu mascota tiene un equivalente total de: " + Valor_Producto + "Pesos");
+    
+ </script>
+
+</body>
+</html>
